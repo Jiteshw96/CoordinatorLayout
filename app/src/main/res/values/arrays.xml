@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tempValues">
+        <item>97.1</item>
+        <item>97.5</item>
+        <item>98.1</item>
+        <item>98.5</item>
+        <item>99.1</item>
+        <item>99.5</item>
+        <item>100.1</item>
+        <item>100.5</item>
+        <item>101.1</item>
+        <item>101.5</item>
+        <item>102.1</item>
+        <item>102.5</item>
+        <item>103.1</item>
+        <item>103.5</item>
+        <item>104.1</item>
+        <item>104.5</item>
+        <item>105.1</item>
+        <item>105.5</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>°F</item>
+        <item>°C</item>
+    </string-array>
+
+
+</resources>
