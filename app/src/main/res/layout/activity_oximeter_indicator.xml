@@ -51,7 +51,7 @@
             app:layout_constraintVertical_bias="1.0"
             app:max="100"
             app:progress="80"
-            app:progressColor="@color/arctColor"
+            app:progressColor="@color/arcColor"
             app:progressWidth="25dp"
             app:rotation="180"
             app:startAngle="55"
@@ -87,23 +87,25 @@
             android:id="@+id/start_percent_lbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginBottom="43dp"
+            android:layout_marginStart="32dp"
             android:text="0 %"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="@+id/seekArcOximeter"
-            app:layout_constraintStart_toStartOf="@+id/guideline" />
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/seekArcOximeter"
+            app:layout_constraintVertical_bias="0.84000003" />
 
         <TextView
             android:id="@+id/end_percent_lbl"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginEnd="32dp"
-            android:layout_marginBottom="43dp"
             android:text="100 %"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="@+id/seekArcOximeter"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2" />
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="@+id/seekArcOximeter"
+            app:layout_constraintVertical_bias="0.84000003" />
 
         <TextView
             android:id="@+id/percent_indicator_lbl"
@@ -164,8 +166,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="16dp"
+            android:background="@color/buttonColor"
+            android:textColor="@color/buttonText"
             android:text="Send"
-            android:textColor="@color/textColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline"

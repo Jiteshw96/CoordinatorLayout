@@ -4,7 +4,9 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="textColor">#1076B7</color>
-    <color name="arctColor">#1076B7</color>
-    <color name="tempTextColor">#FFC80071</color>
+    <color name="arcColor">#1076B7</color>
+    <color name="tempTextColor">#0A518F</color>
+    <color name="buttonColor">#FF0A518F</color>
+    <color name="buttonText">#FFFFFF</color>
 
 </resources>
